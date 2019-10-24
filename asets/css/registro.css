@@ -1,0 +1,52 @@
+body{
+    background-color:rgba(255, 166, 0, 0.753);
+}
+.camara{
+    color: blue;
+    margin-bottom: 50px;
+}
+#cajas{
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+}
+.caja1{
+    border-radius: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.caja2{
+    border-radius: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.caja3{
+    border-radius: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.caja4{
+    border-radius: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.registrado{ 
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    display: inline-block;
+    background-color: rgb(255, 0, 0);
+}
+.registrado:hover{
+    color: #fff;
+}
