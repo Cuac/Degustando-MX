@@ -1,8 +1,9 @@
 body{
-    background-color:rgba(255, 166, 0, 0.753);
+    background-color:rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
 }
 .camara{
-    color: rgba(3, 3, 221, 0.801);
+    color: rgb(10, 55, 253);
     margin-bottom: 50px;
 }
 #cajas{
@@ -16,6 +17,8 @@ body{
     text-align: center;
     padding-bottom: 10px;
     padding-top: 10px;
+    background-color: rgba(143, 143, 143, 0.479);
+    border: none;
 }
 .caja2{
     border-radius: 20px;
@@ -23,6 +26,8 @@ body{
     text-align: center;
     padding-bottom: 10px;
     padding-top: 10px;
+    background-color: rgba(143, 143, 143, 0.479);
+    border: none;
 }
 .caja3{
     border-radius: 20px;
@@ -30,13 +35,18 @@ body{
     text-align: center;
     padding-bottom: 10px;
     padding-top: 10px;
+    background-color: rgba(143, 143, 143, 0.479);
+    border: none;
 }
 .caja4{
     border-radius: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     text-align: center;
     padding-bottom: 10px;
     padding-top: 10px;
+    background-color: rgba(143, 143, 143, 0.479);
+    border: none;
+
 }
 .registrado{ 
     border-radius: 20px;
@@ -45,8 +55,14 @@ body{
     color: rgb(0, 0, 0);
     position: relative;
     display: inline-block;
-    background-color: rgb(255, 0, 0);
-}
-.registrado:hover{
-    color: #fff;
+    background-color: rgb(4, 255, 25);
+    border-color: rgb(0, 217, 255);
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-right-style: solid;
+    border-right-width: 3px;
 }
