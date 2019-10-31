@@ -1,70 +1,79 @@
+*{
+   margin: 0%;
+   padding: 0%;
+}
+
 body {
-  width: 1500%;
-  height: 150%;
-  margin-top: 50px;
-  background: linear-gradient(180deg, #1CD0F8 0%, rgba(255, 255, 255, 0) 80%), linear-gradient(180deg, rgba(249, 249, 249, 0) 0%, #FF1D1D 0%);
-  overflow: hidden;
-  padding: 0px 0px 300px 0px;
+  margin-top: 75px;
+  background: linear-gradient(180deg, #1b5e20 60%,
+  rgba(255, 255, 255, 0) 80%), linear-gradient(180deg,
+  rgba(249, 249, 249, 0) 0%, #66bb6a 0%);
+  padding: 0px 0px 75px 0px;
   width: 100%;
-  opacity: 1;
-  background-position: center;
   border: black 3px;
-  margin-left: 0px;
-  margin-right: 500px;
-  font-family: 'Lato', sans-serif;
-  text-decoration: none;
+  font-family:'Roboto', sans-serif;
+}
+
+h1 {
+  color: #ffffff;
+  text-shadow: 5px 5px 3px #000;
 }
 
 .flex-container{
   display: flex;
-  flex-flow: row wrap;
-  align-content: center;
-  
+  /*flex-flow: row wrap;*/
+  /*align-content: center;*/
+  flex-direction: column;
+  justify-content: center;
 }
 
 .box{ 
   /*border: 1px solid red;*/
-  margin: auto;
-}
+  margin: 5px;
+} 
 
 .shiny-button {
-  position: relative;
-  display: block;
-  float: none;
-  margin: 0 auto;
-  color: black;
   width: 170px;
   padding:0;
   height: 40px;
   font-size: 20px;
   border-radius: 50px;
-  border: 2px solid rgb(0, 26, 255);
   background-color: rgb(0, 234, 255);
   text-decoration-line: none;
+  font-family: 'Roboto', sans-serif;
 }
+
+/*
+taco-image{
+  object-fit: cover;
+}
+
+*/
+
 .fa-7x{
   padding: 10px;
 }
+
+.imagen{
+  /*background-color: rgb(255, 255, 255);*/  
+  /*padding-bottom: 50px;*/
+  background-color: #FF5722;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 15px;
+  border-radius: 68px;
+}
+
 .fondo{
   padding: 30px;
   color: white;
 }
 
 .inicio{
-  padding: 10px;
-  color:#0138F9;
+  padding: 5px;
+  color:WHITESMOKE;
   text-decoration: none
 }
-
-.imagen{
-  background-color: rgb(255, 255, 255);
-  padding-bottom: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 120px;
-  margin-right: 50px;
-  margin-left: 50px;
-  margin-bottom: 20px;
-  border-radius: 68px;
-}
-
