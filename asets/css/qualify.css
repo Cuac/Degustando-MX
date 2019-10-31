@@ -1,4 +1,32 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
 body{
-    background: blueviolet;
-    font-size: 20px;
+    background: rgb(204, 176, 231);
+}
+.container-primero{
+    background: black;
+}
+.imagen{
+    background: #7fa99b;
+}
+.informacion{
+    background: #f79c1d;
+}
+.container-segundo{
+    background: black;
+}
+.title-califica{
+    background: #7fa99b;
+}
+.califica{
+    background: #f79c1d;
+}
+.comentarios{
+    background: #9c2c2c;
+}
+.boton{
+    background: #7fa99b;
 }
