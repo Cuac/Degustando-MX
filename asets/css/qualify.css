@@ -1,4 +1,58 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
 body{
-    background: blueviolet;
-    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    display: flex;
+    flex-flow: column nowrap;
+    background: url(/img/fondo.jpg);
+    background-position: center;
+    background-size: auto;
+}
+.padre1{
+    background: black;
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+}
+.item1{
+    background: cyan;
+    flex: 1 1 auto;
+    
+}
+.imagen{
+
+}
+.item2{
+    background: #d1274b;
+    flex: 1 1 auto;
+}
+
+
+.padre2{
+    background: black;
+    
+}
+.item3{
+    background: #f88020;
+}
+.item4{
+    background: #d1274b;
+}
+.item5{
+    background: #745c97;
+}
+.item6{
+    background: #f9b282;
+}
+@media all and (max-width: 319px){
+    .padre1{
+        flex-direction: column;
+        height: auto;
+    }
 }
