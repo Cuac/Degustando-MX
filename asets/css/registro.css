@@ -1,87 +1,76 @@
-body{
-    background: white;
-    font-family: 'Roboto', sans-serif;
-    text-decoration: none;
-    margin-bottom: 150px;
-}
-.titulo{
-    color: rgb(0, 0, 0);
-}
-.camara{
-    color: rgb(10, 55, 253);
-    margin-bottom: 50px;
-}
-#cajas{
-    display: flex;
-    flex-direction: column;
-    font-size: 50px;
-}
-.caja1{
-    border-radius: 20px;
-    margin-bottom: 10px;
-    text-align: center;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    background-color: rgba(143, 143, 143, 0.479);
-    border: none;
-}
-.caja2{
-    border-radius: 20px;
-    margin-bottom: 10px;
-    text-align: center;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    background-color: rgba(143, 143, 143, 0.479);
-    border: none;
-}
-.caja3{
-    border-radius: 20px;
-    margin-bottom: 10px;
-    text-align: center;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    background-color: rgba(143, 143, 143, 0.479);
-    border: none;
-}
-.caja4{
-    border-radius: 20px;
-    margin-bottom: 30px;
-    text-align: center;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    background-color: rgba(143, 143, 143, 0.479);
-    border: none;
+body {
+  background: white;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  margin-bottom: 150px; }
 
-}
-.recordar{
-    margin-bottom: 10px;
-}
+section form {
+  display: flex;
+  flex-direction: column;
+  font-size: 50px; }
 
-.registrado{ 
-    border-radius: 30px;
-    padding: 5px 15px;
-    font-size: 20px;
-    text-decoration-line: none;
-    color: rgb(7, 7, 7);
-    position: relative;
-    display: flex;
-    background-color: rgb(4, 194, 194);
-    border-color: rgba(7, 7, 7, 0.493);
-    border-bottom-style: solid;
-    border-bottom-width: 3px;
-    border-left-style: solid;
-    border-left-width: 3px;
-    border-top-style: solid;
-    border-top-width: 3px;
-    border-right-style: solid;
-    border-right-width: 3px;
-    box-shadow: rgb(75, 75, 75);
-}
-a{
-    text-decoration: none;
-}
-@media screen and (min-width: 400px) {
-    .desktop{
-        display: none;
-      }
-}
+.caja1 {
+  border-radius: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: rgba(143, 143, 143, 0.479);
+  border: none; }
+
+.caja2 {
+  border-radius: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: rgba(143, 143, 143, 0.479);
+  border: none; }
+
+.caja3 {
+  border-radius: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: rgba(143, 143, 143, 0.479);
+  border: none; }
+
+.caja4 {
+  border-radius: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: rgba(143, 143, 143, 0.479);
+  border: none; }
+
+a {
+  text-decoration: none; }
+
+button {
+  border-radius: 30px;
+  padding: 5px 15px;
+  font-size: 20px;
+  text-decoration-line: none;
+  color: #070707;
+  position: relative;
+  display: flex;
+  background-color: #04c2c2;
+  border-color: rgba(7, 7, 7, 0.493);
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-left-style: solid;
+  border-left-width: 3px;
+  border-top-style: solid;
+  border-top-width: 3px;
+  border-right-style: solid;
+  border-right-width: 3px;
+  box-shadow: #4b4b4b;
+  margin-bottom: 10px; }
+
+body div {
+  color: #0a37fd;
+  margin-bottom: 50px; }
+
+/*# sourceMappingURL=registro.css.map */
