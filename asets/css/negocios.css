@@ -1,0 +1,73 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.barranav{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.imagenes-negocio{
+    display: flex;
+  ; 
+}
+
+
+.imagenes-negocio img{
+    width: 48vw;
+    height: 20vh;
+    object-fit: cover;
+}
+
+
+.info-negocio{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.info-negocio h2{
+    margin: 0 5px;
+}
+
+.img-logo-taco img{
+    width: 30vw;
+    margin: 0px 5px;
+}
+
+.info-negocio ul{
+    margin: 0 10px;
+
+}
+
+.opiniones-users{
+    display: block;
+
+}
+
+.opiniones-users img{
+    width: 15vw;
+}
+
+.user-description{
+    display: flex;
+}
+
+.user-description p img{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.menu-comida{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-comida ul{
+    justify-content: center;
+    align-items: center;
+}
