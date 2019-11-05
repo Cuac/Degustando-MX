@@ -1,6 +1,11 @@
 body{
-    background-color:rgb(255, 255, 255);
+    background: white;
     font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    margin-bottom: 150px;
+}
+.titulo{
+    color: rgb(0, 0, 0);
 }
 .camara{
     color: rgb(10, 55, 253);
@@ -48,15 +53,20 @@ body{
     border: none;
 
 }
+.recordar{
+    margin-bottom: 10px;
+}
+
 .registrado{ 
-    border-radius: 20px;
+    border-radius: 30px;
     padding: 5px 15px;
     font-size: 20px;
-    color: rgb(0, 0, 0);
+    text-decoration-line: none;
+    color: rgb(7, 7, 7);
     position: relative;
-    display: inline-block;
-    background-color: rgb(4, 255, 25);
-    border-color: rgb(0, 217, 255);
+    display: flex;
+    background-color: rgb(4, 194, 194);
+    border-color: rgba(7, 7, 7, 0.493);
     border-bottom-style: solid;
     border-bottom-width: 3px;
     border-left-style: solid;
@@ -65,4 +75,13 @@ body{
     border-top-width: 3px;
     border-right-style: solid;
     border-right-width: 3px;
+    box-shadow: rgb(75, 75, 75);
+}
+a{
+    text-decoration: none;
+}
+@media screen and (min-width: 400px) {
+    .desktop{
+        display: none;
+      }
 }
