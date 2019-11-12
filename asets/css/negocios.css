@@ -9,12 +9,11 @@ body{
 }
 
 .imagenes-negocio{
-    display: flex;
-  ; 
+    display: flex; 
 }
 
-
 .imagenes-negocio img{
+    justify-content: center;
     width: 48vw;
     height: 20vh;
     object-fit: cover;
@@ -28,7 +27,7 @@ body{
 }
 
 .info-negocio h2{
-    margin: 0 5px;
+    margin: 5px 5px;
 }
 
 .img-logo-taco img{
@@ -37,13 +36,15 @@ body{
 }
 
 .info-negocio ul{
-    margin: 0 10px;
+    margin: 5px 5px;
+    padding: 10px 10px;
 
 }
 
 .opiniones-users{
     display: block;
-
+    padding: 15px 15px;
+    background-color: #f5f5f5;
 }
 
 .opiniones-users img{
@@ -59,6 +60,10 @@ body{
     flex-wrap: wrap;
 }
 
+.user-description p{
+    padding-left: 8px;
+}
+
 
 .menu-comida{
     display: flex;
@@ -70,4 +75,9 @@ body{
 .menu-comida ul{
     justify-content: center;
     align-items: center;
+    padding-right: 40px;
+}
+
+.menu-comida h2{
+margin: 0 0;
 }
