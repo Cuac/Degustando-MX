@@ -54,4 +54,6 @@ body {
   margin-bottom: 20px;
   border-radius: 68px;
 }
-
+a{
+  text-decoration: none;
+}
