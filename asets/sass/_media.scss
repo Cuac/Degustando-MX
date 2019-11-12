@@ -1,0 +1,93 @@
+@media (min-width:1281px)  /* hi-res laptops and desktops */ {
+  .cajas{
+      width: 30vw;
+      height: 30vh;
+    }
+}
+
+
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+ margin-top: 0px;
+ margin-bottom: 0px;
+ /*padding: 10px 0px 4px 0px;*/
+ /*width: 100%;*/
+ /*border: black 3px;*/
+ font-family:'Roboto', sans-serif; 
+}
+
+.tacos-imagen {
+ /*background-image:url('https://images.unsplash.com/photo-1560303939-19963b57887b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=60');*/
+ /*background-image:url('https://www.ecestaticos.com/imagestatic/clipping/78e/458/78e458c5a29ae47ee828218afc325961/por-que-el-desayuno-es-la-comida-mas-importante-si-quieres-estar-delgado.jpg?mtime=1500459950');*/
+ /*background: linear-gradient(180deg, #66bb6a 60%,
+ rgba(255, 255, 255, 0) 80%), linear-gradient(180deg,
+ rgba(249, 249, 249, 0) 0%, #66bb6a 0%);*/
+ background-color: whitesmoke;
+ height: 800px; /* You must set a specified height */
+ background-position: center; /* Center the image */
+ background-repeat: no-repeat; /* Do not repeat the image */
+ background-size: cover; 
+}
+
+h1 {
+ color:#01579b;
+ text-shadow: 2px 3px 2px aliceblue;
+ font-size: 30px;
+}
+
+.flex-container{
+ display: flex;
+ /*flex-flow: row wrap;*/
+ /*align-content: center;*/
+ flex-direction: column;
+ justify-content: center;
+}
+
+.box{ 
+ /*border: 1px solid red; */
+ margin: 50px;
+} 
+
+.shiny-button {
+ width: 170px;
+ padding:0;
+ height: 40px;
+ font-size: 20px;
+ border-radius: 50px;
+ background-color: rgb(0, 234, 255);
+ text-decoration-line: none;
+ font-family: 'Roboto', sans-serif;
+}
+
+.fa-7x{
+ color:rgb(2, 26, 15);
+}
+
+.inicio{
+ padding: 5px;
+ color:rgb(12, 3, 29); 
+ font-weight: 600;
+}
+
+@media screen and (min-width: 400px) {
+
+ .desktop{
+   display: flex;
+ }
+}
+
+@media only screen and (max-width: 799px) and (min-width: 499px) {
+
+ .desktop {
+   display: flex;
+ }
+}
+
+
+a{
+ text-decoration: none;
+}
