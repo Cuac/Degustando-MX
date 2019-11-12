@@ -18,33 +18,6 @@ section form {
   background-color: rgba(143, 143, 143, 0.479);
   border: none; }
 
-.caja2 {
-  border-radius: 20px;
-  margin-bottom: 10px;
-  text-align: center;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  background-color: rgba(143, 143, 143, 0.479);
-  border: none; }
-
-.caja3 {
-  border-radius: 20px;
-  margin-bottom: 10px;
-  text-align: center;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  background-color: rgba(143, 143, 143, 0.479);
-  border: none; }
-
-.caja4 {
-  border-radius: 20px;
-  margin-bottom: 30px;
-  text-align: center;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  background-color: rgba(143, 143, 143, 0.479);
-  border: none; }
-
 a {
   text-decoration: none; }
 
@@ -72,5 +45,10 @@ button {
 body div {
   color: #0a37fd;
   margin-bottom: 50px; }
+
+@media (min-width: 1281px) {
+  .cajas {
+    width: 30vw;
+    height: 30vh; } }
 
 /*# sourceMappingURL=registro.css.map */
