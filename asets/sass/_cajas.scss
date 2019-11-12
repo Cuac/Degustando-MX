@@ -13,3 +13,13 @@
         background-color: rgba(143, 143, 143, 0.479);
         border: none;
     }
+
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       }
+
+       .fa-7x{
+        color:rgb(2, 26, 15);
+       }
