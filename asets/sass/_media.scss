@@ -4,10 +4,26 @@
       height: 30vh;
     }
 }
-@media all and (max-width:414px){
+
+@media screen and (min-width: 400px) {
+
+  .desktop{
+    display: flex;
+  }
+
   .padre1{
     flex-direction: column;
     height: auto;
   }
+ }
+ 
+ @media only screen and (max-width: 799px) and (min-width: 499px) {
+ 
+  .desktop {
+    display: flex;
+  }
+ }
 
+a{
+ text-decoration: none;
 }

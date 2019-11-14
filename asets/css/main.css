@@ -1,184 +1,76 @@
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box; }
+/*
+Error: Invalid CSS after "...in-bottom: 10px": expected "{", was ";  "
+        on line 76 of asets/sass/_botones.scss
+        from line 3 of asets/sass/main.scss
 
-.container {
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
-  height: 100vh; }
+71:   }
+72:   input[type="radio"]:checked ~ label {
+73:     color: orange;
+74:   }
+75: 
+76:     margin-bottom: 10px;  
+77: }
+78: 
+79: .inicio{
+80:     padding: 5px;
+81:     color:rgb(12, 3, 29); 
 
-body {
-  background: white;
-  font-family: 'Roboto', sans-serif;
-  text-decoration: none;
-  margin-bottom: 150px; }
-
-.padre1 {
-  display: flex;
-  flex-wrap: nowrap;
-  margin: 10px;
-  height: 50%; }
-
-.padre2 {
-  flex-direction: column; }
-
-.item2 {
-  width: 100%;
-  justify-content: center; }
-
-.item2 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  text-align: center;
-  width: 80%;
-  padding: 18px 18px 2px 18px;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  color: #a87b07; }
-
-.padre2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  height: 100%;
-  margin: 10px; }
-
-.item3 {
-  display: flex;
-  justify-content: center;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  font-size: 18px; }
-
-.item3 h4 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  font-size: 28px;
-  letter-spacing: 1px;
-  color: black; }
-
-.item5 {
-  display: flex;
-  justify-content: center;
-  padding: 8px; }
-
-.item6 {
-  display: flex;
-  justify-content: center; }
-
-section form {
-  display: flex;
-  flex-direction: column;
-  font-size: 50px; }
-
-.campos {
-  border-radius: 20px;
-  text-align: center;
-  padding-bottom: 5px;
-  padding-top: 10px;
-  background-color: rgba(143, 143, 143, 0.479);
-  border: none;
-  margin-top: 30px; }
-
-.commit {
-  width: 80%;
-  border-radius: 8px;
-  border-color: burlywood;
-  margin-bottom: 10px; }
-
-a {
-  text-decoration: none; }
-
-button {
-  border-radius: 30px;
-  padding: 5px 15px;
-  font-size: 20px;
-  text-decoration-line: none;
-  color: #070707;
-  position: relative;
-  display: flex;
-  background-color: #04c2c2;
-  border-color: rgba(7, 7, 7, 0.493);
-  border-bottom-style: solid;
-  border-bottom-width: 3px;
-  border-left-style: solid;
-  border-left-width: 3px;
-  border-top-style: solid;
-  border-top-width: 3px;
-  border-right-style: solid;
-  border-right-width: 3px;
-  box-shadow: #4b4b4b;
-  margin-bottom: 10px;
-  margin-top: 10px; }
-
-.item4 {
-  font-size: 50px;
-  display: flex;
-  justify-content: center;
-  letter-spacing: 8px;
-  margin-top: -12px; }
-
-.button-enviar {
-  background-color: #8fe284;
-  border: none;
-  color: black;
-  text-decoration: none;
-  padding: 15px 90px;
-  border-radius: 25px;
-  margin-bottom: 20px; }
-
-#form {
-  width: 250px;
-  margin: 0 auto;
-  height: 50px; }
-
-#form p {
-  text-align: center; }
-
-#form label {
-  font-size: 20px; }
-
-input[type="radio"] {
-  display: none; }
-
-label {
-  color: grey; }
-
-.clasificacion {
-  direction: rtl;
-  unicode-bidi: bidi-override; }
-
-label:hover,
-label:hover ~ label {
-  color: orange; }
-
-input[type="radio"]:checked ~ label {
-  color: orange; }
-
-body div {
-  color: #0a37fd;
-  margin-bottom: 50px; }
-
-.item1 {
-  display: flex;
-  width: 100%; }
-
-.img {
-  width: 100%; }
-
-@media (min-width: 1281px) {
-  .cajas {
-    width: 30vw;
-    height: 30vh; } }
-@media all and (max-width: 414px) {
-  .padre1 {
-    flex-direction: column;
-    height: auto; } }
-.inicios {
-  margin-right: 30px; }
-
-/*# sourceMappingURL=main.css.map */
+Backtrace:
+asets/sass/_botones.scss:76
+asets/sass/main.scss:3
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308:in `expected'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1238:in `expected'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1233:in `tok!'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:688:in `block'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:681:in `ruleset'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:707:in `block_child'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:700:in `block_contents'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:137:in `stylesheet'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:41:in `parse'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:414:in `_to_tree'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:321:in `to_tree'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:323:in `block in visit_import'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `block in with_import'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `with_import'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:320:in `block in watch'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"...in-bottom: 10px\": expected \"{\", was \";  \"\A         on line 76 of asets/sass/_botones.scss\A         from line 3 of asets/sass/main.scss\A \A 71:   }\A 72:   input[type=\"radio\"]:checked ~ label {\A 73:     color: orange;\A 74:   }\A 75: \A 76:     margin-bottom: 10px;  \A 77: }\A 78: \A 79: .inicio{\A 80:     padding: 5px;\A 81:     color:rgb(12, 3, 29); "; }
