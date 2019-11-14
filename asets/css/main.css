@@ -4,6 +4,10 @@ body {
   text-decoration: none;
   margin-bottom: 150px; }
 
+.secundario {
+  font-size: 30px;
+  text-decoration-color: red; }
+
 section form {
   display: flex;
   flex-direction: column;
