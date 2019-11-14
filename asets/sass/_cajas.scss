@@ -4,12 +4,58 @@
         font-size: 50px;
     }
     
-    .caja1{
+    .campos{
         border-radius: 20px;
-        margin-bottom: 10px;
         text-align: center;
-        padding-bottom: 10px;
+        padding-bottom: 5px;
         padding-top: 10px;
         background-color: rgba(143, 143, 143, 0.479);
         border: none;
+        margin-top: 30px;
     }
+
+    .info-negocio{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    
+        h2{
+        margin: 5px 5px;
+        }
+    
+        ul{
+        margin: 5px 5px;
+        padding: 10px 10px;
+        }
+    }
+    
+    
+    .img-logo-taco img{
+        width: 30vw;
+        margin: 0px 5px;
+    }
+     
+    
+    .opiniones-users{
+        display: block;
+        padding: 15px 15px;
+        background-color: #f5f5f5;
+    }
+    
+    .opiniones-users img{
+        width: 15vw;
+    }
+    
+    .user-description{
+        display: flex;
+    }
+    
+    .user-description p img{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .user-description p{
+        padding-left: 8px;
+    }
+    

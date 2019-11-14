@@ -20,6 +20,9 @@ button{
     border-right-style: solid;
     border-right-width: 3px;
     box-shadow: rgb(75, 75, 75);
-    margin-bottom: 10px; 
-    margin-top: 10px;
+}
+
+.boton-vamosacomer{
+    display: flex;
+    justify-content: center;
 }
