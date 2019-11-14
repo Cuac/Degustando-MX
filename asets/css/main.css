@@ -1,13 +1,15 @@
 body {
   background: white;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   text-decoration: none;
-  margin-bottom: 150px; }
+  margin-bottom: 150px;
+}
 
 section form {
   display: flex;
   flex-direction: column;
-  font-size: 50px; }
+  font-size: 50px;
+}
 
 .caja1 {
   border-radius: 20px;
@@ -16,10 +18,12 @@ section form {
   padding-bottom: 10px;
   padding-top: 10px;
   background-color: rgba(143, 143, 143, 0.479);
-  border: none; }
+  border: none;
+}
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 button {
   border-radius: 30px;
@@ -41,15 +45,37 @@ button {
   border-right-width: 3px;
   box-shadow: #4b4b4b;
   margin-bottom: 10px;
-  margin-top: 10px; }
+}
+
+.inicio {
+  padding: 5px;
+  color: #0c031d;
+  font-weight: 600;
+}
 
 body div {
   color: #0a37fd;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+}
 
 @media (min-width: 1281px) {
   .cajas {
     width: 30vw;
-    height: 30vh; } }
+    height: 30vh;
+  }
+}
+@media screen and (min-width: 400px) {
+  .desktop {
+    display: flex;
+  }
+}
+@media only screen and (max-width: 799px) and (min-width: 499px) {
+  .desktop {
+    display: flex;
+  }
+}
+a {
+  text-decoration: none;
+}
 
 /*# sourceMappingURL=main.css.map */
