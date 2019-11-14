@@ -11,15 +11,18 @@ section form {
   font-size: 50px;
 }
 
-.caja1 {
+.campos {
   border-radius: 20px;
-  margin-bottom: 10px;
   text-align: center;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   padding-top: 10px;
   background-color: rgba(143, 143, 143, 0.479);
   border: none;
+<<<<<<< HEAD
 }
+=======
+  margin-top: 30px; }
+>>>>>>> origin/login
 
 a {
   text-decoration: none;
@@ -43,6 +46,7 @@ button {
   border-top-width: 3px;
   border-right-style: solid;
   border-right-width: 3px;
+<<<<<<< HEAD
   box-shadow: #4b4b4b;
   margin-bottom: 10px;
 }
@@ -52,12 +56,16 @@ button {
   color: #0c031d;
   font-weight: 600;
 }
+=======
+  box-shadow: #4b4b4b; }
+>>>>>>> origin/login
 
 body div {
   color: #0a37fd;
   margin-bottom: 50px;
 }
 
+<<<<<<< HEAD
 @media (min-width: 1281px) {
   .cajas {
     width: 30vw;
@@ -77,5 +85,9 @@ body div {
 a {
   text-decoration: none;
 }
+=======
+.inicios {
+  margin-right: 30px; }
+>>>>>>> origin/login
 
 /*# sourceMappingURL=main.css.map */
