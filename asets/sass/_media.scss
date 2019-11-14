@@ -1,17 +1,11 @@
-@media screen and (min-width: 400px) {
 
-  .desktop{
-    display: flex;
-  }
- }
+@media screen and (min-width: 400px) {
+    form{
+        width: 30vw;
+        height: 45vh; 
+    }
+}
  
  @media only screen and (max-width: 799px) and (min-width: 499px) {
- 
-  .desktop {
-    display: flex;
-  }
- }
 
-a{
- text-decoration: none;
-}
+ }

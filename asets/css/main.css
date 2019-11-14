@@ -9,14 +9,14 @@ section form {
   flex-direction: column;
   font-size: 50px; }
 
-.caja1 {
+.formulario-registro {
   border-radius: 20px;
-  margin-bottom: 10px;
   text-align: center;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   padding-top: 10px;
   background-color: rgba(143, 143, 143, 0.479);
-  border: none; }
+  border: none;
+  margin-top: 30px; }
 
 a {
   text-decoration: none; }
@@ -44,7 +44,7 @@ button {
 
 .inicio {
   padding: 5px;
-  color: #0c031d;
+  color: #000;
   font-weight: 600; }
 
 body div {
@@ -52,12 +52,10 @@ body div {
   margin-bottom: 50px; }
 
 @media screen and (min-width: 400px) {
-  .desktop {
-    display: flex; } }
-@media only screen and (max-width: 799px) and (min-width: 499px) {
-  .desktop {
-    display: flex; } }
-a {
-  text-decoration: none; }
+  form {
+    width: 30vw;
+    height: 45vh; } }
+.inicios {
+  margin-right: 30px; }
 
 /*# sourceMappingURL=main.css.map */
