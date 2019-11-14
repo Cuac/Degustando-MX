@@ -4,3 +4,9 @@
       height: 30vh;
     }
 }
+@media all and (max-width:414px){
+  .padre1{
+    flex-direction: column;
+    height: auto;
+  }
+}
