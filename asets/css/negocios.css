@@ -81,3 +81,25 @@ body{
 .menu-comida h2{
 margin: 0 0;
 }
+
+@media (min-width:1281px)  /* hi-res laptops and desktops */ {
+    .imagenes-negocio img{
+        width: 48vw;
+        height: 60vh;
+        object-fit: cover;
+      }
+
+      .opiniones-users img{
+        width: 10vw;
+        padding: 8px;
+    }
+
+    .opiniones-users{
+        display: flex;
+        justify-content: center;
+    }
+
+    .user-description{
+        display: flex;
+    }
+    }

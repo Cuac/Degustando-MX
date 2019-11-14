@@ -4,3 +4,13 @@
       height: 30vh;
     }
 }
+
+@media (min-width:1281px)  /* hi-res laptops and desktops */ {
+.imagenes-negocio .caja-negocios img {
+    width: 48vw;
+    height: 80vh;
+    object-fit: cover;
+  }
+}
+  
+  
