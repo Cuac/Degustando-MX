@@ -5,15 +5,7 @@
 @import "media";
 
 
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-  }
-  body{
-    font-family: 'Roboto', sans-serif;
-    background: honeydew;
-  }
+
   .container{
     
     display: flex;
@@ -44,9 +36,7 @@
     display: flex;
     width: 100%;
   }
-  .img{
-    width: 100%;
-  }
+  
   .item2{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
