@@ -1,93 +1,18 @@
-body {
-  background: white;
-  font-family: "Roboto", sans-serif;
-  text-decoration: none;
-  margin-bottom: 150px;
-}
+/* Error: expected "{".
+ *    ,
+ * 24 |     margin-bottom: 10px;  
+ *    |                        ^
+ *    '
+ *   asets\sass\_botones.scss 24:24  @import
+ *   asets\sass\main.scss 3:9        root stylesheet */
 
-section form {
-  display: flex;
-  flex-direction: column;
-  font-size: 50px;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "{".\a    \2577 \a 24 \2502      margin-bottom: 10px;  \d\a    \2502                         ^\a    \2575 \a   asets\\sass\\_botones.scss 24:24  @import\a   asets\\sass\\main.scss 3:9        root stylesheet';
 }
-
-.campos {
-  border-radius: 20px;
-  text-align: center;
-  padding-bottom: 5px;
-  padding-top: 10px;
-  background-color: rgba(143, 143, 143, 0.479);
-  border: none;
-<<<<<<< HEAD
-}
-=======
-  margin-top: 30px; }
->>>>>>> origin/login
-
-a {
-  text-decoration: none;
-}
-
-button {
-  border-radius: 30px;
-  padding: 5px 15px;
-  font-size: 20px;
-  text-decoration-line: none;
-  color: #070707;
-  position: relative;
-  display: flex;
-  background-color: #04c2c2;
-  border-color: rgba(7, 7, 7, 0.493);
-  border-bottom-style: solid;
-  border-bottom-width: 3px;
-  border-left-style: solid;
-  border-left-width: 3px;
-  border-top-style: solid;
-  border-top-width: 3px;
-  border-right-style: solid;
-  border-right-width: 3px;
-<<<<<<< HEAD
-  box-shadow: #4b4b4b;
-  margin-bottom: 10px;
-}
-
-.inicio {
-  padding: 5px;
-  color: #0c031d;
-  font-weight: 600;
-}
-=======
-  box-shadow: #4b4b4b; }
->>>>>>> origin/login
-
-body div {
-  color: #0a37fd;
-  margin-bottom: 50px;
-}
-
-<<<<<<< HEAD
-@media (min-width: 1281px) {
-  .cajas {
-    width: 30vw;
-    height: 30vh;
-  }
-}
-@media screen and (min-width: 400px) {
-  .desktop {
-    display: flex;
-  }
-}
-@media only screen and (max-width: 799px) and (min-width: 499px) {
-  .desktop {
-    display: flex;
-  }
-}
-a {
-  text-decoration: none;
-}
-=======
-.inicios {
-  margin-right: 30px; }
->>>>>>> origin/login
-
-/*# sourceMappingURL=main.css.map */
