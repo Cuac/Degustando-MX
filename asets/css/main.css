@@ -1,8 +1,74 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh; }
+
 body {
   background: white;
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
   margin-bottom: 150px; }
+
+.padre1 {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 10px;
+  height: 50%; }
+
+.padre2 {
+  flex-direction: column; }
+
+.item2 {
+  width: 100%;
+  justify-content: center; }
+
+.item2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  width: 80%;
+  padding: 18px 18px 2px 18px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  color: #a87b07; }
+
+.padre2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+  margin: 10px; }
+
+.item3 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 18px; }
+
+.item3 h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  letter-spacing: 1px;
+  color: black; }
+
+.item5 {
+  display: flex;
+  justify-content: center;
+  padding: 8px; }
+
+.item6 {
+  display: flex;
+  justify-content: center; }
 
 section form {
   display: flex;
@@ -17,6 +83,12 @@ section form {
   background-color: rgba(143, 143, 143, 0.479);
   border: none;
   margin-top: 30px; }
+
+.commit {
+  width: 80%;
+  border-radius: 8px;
+  border-color: burlywood;
+  margin-bottom: 10px; }
 
 a {
   text-decoration: none; }
@@ -41,20 +113,57 @@ button {
   border-right-width: 3px;
   box-shadow: #4b4b4b;
   margin-bottom: 10px; }
+  button .item4 {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 8px;
+    margin-top: -12px; }
+  button #form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px; }
+  button #form p {
+    text-align: center; }
+  button #form label {
+    font-size: 20px; }
+  button input[type="radio"] {
+    display: none; }
+  button label {
+    color: grey; }
+  button .clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override; }
+  button label:hover,
+  button label:hover ~ label {
+    color: orange; }
+  button input[type="radio"]:checked ~ label {
+    color: orange; }
 
 .inicio {
   padding: 5px;
   color: #000;
   font-weight: 600; }
 
-body div {
+.camara {
   color: #0a37fd;
   margin-bottom: 50px; }
 
+.item1 {
+  display: flex;
+  width: 100%; }
+
+.img {
+  width: 100%; }
+
 @media screen and (min-width: 400px) {
-  form {
+  .registros {
     width: 30vw;
-    height: 45vh; } }
+    height: 45vh; }
+
+  .padre1 {
+    flex-direction: column;
+    height: auto; } }
 .inicios {
   margin-right: 30px; }
 

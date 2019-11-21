@@ -1,11 +1,13 @@
 
+
 @media screen and (min-width: 400px) {
-    form{
+    .registros{
         width: 30vw;
         height: 45vh; 
     }
+    .padre1{
+        flex-direction: column;
+        height: auto;
+      }
 }
- 
- @media only screen and (max-width: 799px) and (min-width: 499px) {
 
- }
