@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0px;
   padding: 0px;
@@ -168,3 +169,23 @@ button {
   margin-right: 30px; }
 
 /*# sourceMappingURL=main.css.map */
+=======
+/* Error: expected "{".
+ *    ,
+ * 24 |     margin-bottom: 10px;  
+ *    |                        ^
+ *    '
+ *   asets\sass\_botones.scss 24:24  @import
+ *   asets\sass\main.scss 3:9        root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "{".\a    \2577 \a 24 \2502      margin-bottom: 10px;  \d\a    \2502                         ^\a    \2575 \a   asets\\sass\\_botones.scss 24:24  @import\a   asets\\sass\\main.scss 3:9        root stylesheet';
+}
+>>>>>>> pantalla-principal
